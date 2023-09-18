@@ -1,0 +1,40 @@
+body{
+    background-color: grey;
+}
+
+div.form-box{
+    align-items: center;
+    border-width: 2px;
+}
+
+table{
+    border: 1px;
+    border-color: black;
+    margin: auto;
+}
+
+td.td1{
+    background-color: rgb(198, 255, 255);
+    font-family: "Papyrus", "Papyrus", cursive;
+    font-weight: bold;
+    text-align: center;
+    width: 200px;
+}
+td.td2{
+    background-color: rgb(255, 255, 230);
+    font-family: "Papyrus", "Papyrus", cursive;
+    text-align: center;
+    width: 200px;
+}
+
+fieldset{
+    background-color: antiquewhite;
+    display: inline-block;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    margin: auto;
+    text-align: center;
+}
+
+form{
+    text-align: center;
+}

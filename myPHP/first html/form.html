@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>form</title>
+
+        <style>
+            froot{
+                margin: auto;
+            }
+        </style>
+    </head>
+
+    <body>
+        <form action="first.php" method="post">
+            <h1>Enter your two favorite fruits:</h1>
+            
+            <label for="fruit1">Fruit 1:</label> <input type="text" name="fruit1" value="apple"> <br>
+            <label for="">Number of pounds:</label> <input type="number" name="pound"> <br>
+            Fruit 2: <input type="text" name="fruit2" value="pear"> <br>
+            <label for="">Number of pounds: </label> <input type="number" name="pound"> <br>
+            Price: $<input type="number" name="price" step="0.01" min="1" max="1000"> <br>
+
+            <input type="submit" name="submit"> <br>
+        </form>
+    </body>
+</html>

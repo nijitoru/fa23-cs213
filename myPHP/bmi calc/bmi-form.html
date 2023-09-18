@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>BMI Calculator</title>
+        <link rel="stylesheet" href="bmo.css">
+    </head>
+
+    <body>
+        <form action="bmi.php" method="POST">
+            <fieldset>
+                <div>
+                    <p>Select a unit:</p>
+                    <input class="radio-input" type="radio" name="unit" value="imperial" checked>
+                    <label class="radio-label" for="imperial">US</label>
+                    <input class="radio-input" type="radio" name="unit" value="metric">
+                    <label class="radio-label" for="metric">Metric</label>
+
+                    <p>Select your gender:</p>
+                    <input class="radio-input" type="radio" name="gender" value="male" checked>
+                    <label class="radio-label" for="male">Male</label>
+                    <input class="radio-input" type="radio" name="gender" value="female">
+                    <label class="radio-label" for="female">Female</label>
+                </div>
+                <div>
+                    <table>
+                        <tr>
+                            <th>
+                                <label>Enter height:</label>
+                            </th>
+                            <th>
+                                <input type="text" name="height">
+                            </th>
+                        </tr>
+
+                        <tr>
+                            <th>
+                                <label>Enter weight:</label>
+                            </th>
+                            <th>
+                                <input type="text" name="weight">
+                            </th>
+                        </tr>
+
+                        <th>
+                            <input class="submit" type="submit" name="submit"  value="Submit">
+                            <input class="reset" type="reset" name="reset" value="Reset">
+                        </th>
+                    </table>
+                </div>
+            </fieldset>
+                
+            
+
+            
+        </form>
+    </body>
+</html>
