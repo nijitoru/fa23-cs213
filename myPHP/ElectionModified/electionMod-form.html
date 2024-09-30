@@ -1,0 +1,66 @@
+<!-- Name: ElectionMod Project
+Purpose: Use arrays for candidates and votes; isset() max() number_format()
+Programmer: Judy Marie Delos Reyes on October 06, 2023 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Election Form</title>
+
+    <link rel="stylesheet" href="electionMod.css">
+</head>
+<body>
+    <h1>Determine the Winner of the Election</h1>
+    <h2>Enter the last names of three Guam senator candidates.</h2>
+    
+    <div>
+        <form action="electionModified.php" method="POST">
+            <table>
+                        <tr>
+                            <th>
+                                <label for="candidate1" class="candidate">Candidate 1:<FONT>*</FONT></label>
+                                <input type="text" name="candidates[]">
+                            </th>
+                            <th>
+                                <label>Votes:<FONT>*</FONT></label>
+                                <input type="number" name="votes[]">
+                            </th>
+                        </tr>
+
+                        <tr>
+                            <th>
+                                <label for="candidate2" class="candidate">Candidate 2:<FONT>*</FONT></label>
+                                <input type="text" name="candidates[]">
+                            </th>
+                            <th>
+                                <label>Votes:<FONT>*</FONT></label>
+                                <input type="number" name="votes[]">
+                            </th>
+                        </tr>
+
+                        <tr>
+                            <th>
+                                <label for="candidate3" class="candidate">Candidate 3:<FONT>*</FONT></label>
+                                <input type="text" name="candidates[]">
+                            </th>
+                            <th>
+                                <label>Votes:<FONT>*</FONT></label>
+                                <input type="number" name="votes[]">
+                            </th>
+                        </tr>
+
+                        <th>
+                            <input class="submit" type="submit" name="submit"  value="Submit">
+                            <input class="reset" type="reset" name="reset" value="Reset">
+                        </th>
+                    </table>
+        </form>
+            
+    </div>
+    
+    
+    
+</body>
+</html>

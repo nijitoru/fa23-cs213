@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="movie-db.css">
+    </head>
+    <body>
+        <form action="movie-db.php" method="POST">
+            <div class="container">
+                <p>Select a field:</p>
+                <input type="radio" name="field" value="movieID"> Movie ID <br>
+                <input type="radio" name="field"  value="movieTitle"> Movie Title <br>
+                <input type="radio" name="field"  value="actors"> Lead Actor <br>
+                <input type="radio" name="field"  value="genre"> Genre <br>
+                <input type="radio" name="field"  value="revenue"> Revenue <br>
+                <input type="radio" name="field"  value="yearRelease"> Year Released <br>
+                <br>
+                <div class="cont2">
+                    <label>Enter selected query:</label> <br>
+                    <input type="text" name="search"> <br><br>
+                    <label>Enter name:</label> <br>
+                    <input type="text" name="user"> <br>
+
+                    <br><input class="submit" type="submit" name="submit"  value="Submit">
+                    <input class="reset" type="reset" name="reset" value="Reset">
+                </div>
+            </div>
+        </form>
+    </body>
+</html>

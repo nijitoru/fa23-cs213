@@ -1,0 +1,25 @@
+<!-- Name: Denomination Project
+Purpose: Convert change into dollars, quarters, dimes, nickles and pennies
+Programmer: Judy Marie Delos Reyes on October 03, 2023 -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <h1>US Currency Denomination</h1>
+    </head>
+    <body>
+        <form action="denomination.php" method="POST">
+            <table>
+                <td>
+                    <label>Amount owed:</label><br>
+                    <input type="number" name="amtOwed" step="0.01"><br><br>
+                    <label>Amount paid:</label><br>
+                    <input type="number" name="amtPaid" step="0.01"><br><br>
+                    <input class="submit" type="submit" name="submit"  value="Submit">
+                    <input class="reset" type="reset" name="reset" value="Reset">
+                </td>
+                
+            </table>
+        </form>
+    </body>
+</html>

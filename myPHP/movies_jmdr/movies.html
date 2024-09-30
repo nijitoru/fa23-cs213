@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Movie Form</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="movies.css">
+    </head>
+    <body>
+        <form action="movies.php" method="POST">
+            <div class="container">
+                <h1>Movie Entry Form</h1>
+                <label>Movie ID:</label><input type="number" name="movie[]"> <br>
+                <label>Title:</label><input type="text" name="movie[]"> <br>
+                <label>Main actor:</label><input type="text" name="movie[]"> <br>
+                <label>Run Time (minutes):</label><input type="number" name="movie[]"> <br>
+                <label>Genre:</label><input type="text" name="movie[]"> <br>
+                <label>Revenue:</label><input type="double" name="movie[]"> <br>
+                <label>Year Released:</label><input type="number" name="movie[]"> <br>
+                <br><input class="submit" type="submit" name="submit"  value="Submit">
+                <input class="reset" type="reset" name="reset" value="Reset">
+            </div>
+            <div class="container">
+                <a href="id-search.html">
+                    <button type="button">Movie ID Search</button>
+                </a> <br><br>
+                <a href="title-search.html">
+                    <button type="button">Movie Title Search</button>
+                </a>
+            </div>
+        </form>
+    </body>
+</html>

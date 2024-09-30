@@ -1,0 +1,49 @@
+h1 {
+    margin: auto;
+}
+
+table {
+    margin: auto;
+}
+
+font {
+    color: red;
+}table.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    text-align: center;
+    font-family: Merriweather, serif;
+}
+
+h1 {
+    font-family: Merriweather, serif;
+    text-align: center;
+}
+
+td.td1 {
+    background-color: orange;
+    font-family: 'Akaya Telivigala';
+    font-size: 22px;
+    text-align: center;
+    width: 200px;
+}
+
+td.td2 {
+    background-color: greenyellow;
+    text-align: center;
+    width: 200px;
+}
+
+td.td3 {
+    background-color: rgb(47, 154, 255);
+    text-align: center;
+    font-family: 'Sofia';
+    font-size: 24px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    letter-spacing: 1px;
+    width: 200px;
+}

@@ -1,0 +1,50 @@
+<!-- Name: Income Expenses Project
+Purpose: Show income spent or earned
+Programmer: Judy Marie Delos Reyes on September 29, 2023 -->
+
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <link rel="stylesheet" href="incm.css">
+    </head>
+
+    <body>
+        <form action="income-expense.php" method="POST">
+            
+            <table>
+                <td>
+                    <h1>Monthly Income</h1>
+                    <div>
+                        <label>Monthly Average Work Hours:</label><br>
+                        <input type="text" name="hoursWorked"><br><br>
+                        <label>Hourly rate:</label><br>
+                        <input type="text" name="hourlyRate"><br><br>
+                        <label>Tax rate:</label><br>
+                        <input type="text" name="taxRate">
+                    </div>
+                </td>
+            </table>
+
+            <table>
+                <td>
+                    <h1>Monthly Expenses</h1>
+                    <div>
+                        <label>Food:</label><br>
+                        <input type="text" name="food"><br><br>
+                        <label>Gas:</label><br>
+                        <input type="text" name="gas"><br><br>
+                        <label>Other:</label><br>
+                        <input type="text" name="other">
+                    </div>
+                </td>
+            </table>
+
+            <br>
+
+            <div>
+                <input class="submit" type="submit" name="submit"  value="Submit">
+            </div>
+            
+        </form>
+    </body>
+</html>

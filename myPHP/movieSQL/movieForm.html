@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Movie Form</title>
+    </head>
+    <body>
+        <form action="movie.php" method="POST">
+            <div class="container">
+                Movie ID: <input type="number" name="movie[]"> <br>
+                Movie Title: <input type="text" name="movie[]"> <br>
+                Main actor: <input type="text" name="movie[]"> <br>
+                Run Time in Minutes: <input type="number" name="movie[]"> <br>
+                Genre: <input type="text" name="movie[]"> <br>
+                Revenue: <input type="double" name="movie[]"> <br>
+                Year Released: <input type="number" name="movie[]"> <br>
+            </div>
+            <div class="container">
+                <br><input class="submit" type="submit" name="submit"  value="Submit">
+                <input class="reset" type="reset" name="reset" value="Reset">
+            </div>
+        </form>
+    </body>
+</html>
